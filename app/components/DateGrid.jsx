@@ -243,12 +243,15 @@ export default function DateGrid({
               <span className="relative z-2 font-medium">{cell.day}</span>
 
               {/* Today indicator */}
-              {cell.isToday && !isStartDate && !isEndDate && !showTodayHighlight && (
-                <div
-                  className="absolute bottom-0.5 w-1 h-1 rounded-full"
-                  style={{ backgroundColor: seasonal.accent }}
-                />
-              )}
+              {cell.isToday &&
+                !isStartDate &&
+                !isEndDate &&
+                !showTodayHighlight && (
+                  <div
+                    className="absolute bottom-0.5 w-1 h-1 rounded-full"
+                    style={{ backgroundColor: seasonal.accent }}
+                  />
+                )}
 
               {/* Holiday dot */}
               {holiday && !cell.isToday && !isStartDate && !isEndDate && (

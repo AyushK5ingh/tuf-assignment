@@ -24,15 +24,15 @@ The goal of this project is to translate a static calendar-inspired design into 
 ### Date Range Selection
 
 - Click flow:
-	1. First click sets start date
-	2. Second click sets end date
-	3. Clicking start/end again resets
+  1.  First click sets start date
+  2.  Second click sets end date
+  3.  Clicking start/end again resets
 - Hover preview while choosing end date
 - Distinct states:
-	- start and end date chips
-	- connected in-range band
-	- preview end-ring indicator
-	- separate "today" highlight styling
+  - start and end date chips
+  - connected in-range band
+  - preview end-ring indicator
+  - separate "today" highlight styling
 
 ### Notes
 
